@@ -88,4 +88,17 @@ node default {
     ensure => link,
     target => $boxen::config::repodir
   }
+
+  # osx system changes
+  include osx::global::disable_remote_control_ir_receiver
+  include osx::global::enable_keyboard_control_access
+  include osx::global::expand_print_dialog
+  include osx::finder::show_external_hard_drives_on_desktop
+  include osx::finder::unhide_library
+  include osx::disable_app_quarantine
+  include osx::no_network_dsstores
+  include osx::global::key_repeat_rate
+  
+
+
 }
