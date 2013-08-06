@@ -37,4 +37,8 @@ github "xquartz",    "1.1.0"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 
-mod "osx",        :git => "git://github.com/boxen/puppet-osx.git"
+github "chrome",     "1.1.1"	     
+
+mod "osx",           :git => "git://github.com/boxen/puppet-osx.git"
+
+

@@ -94,6 +94,7 @@ node default {
   include osx::no_network_dsstores
   include osx::global::key_repeat_rate
   
-
+  # apps
+  include chrome
 
 }
