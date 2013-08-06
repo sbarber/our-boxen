@@ -5,13 +5,6 @@ GIT
   specs:
     osx (0.0.1)
 
-GIT
-  remote: git://github.com/phinze/puppet-brewcask.git
-  ref: master
-  sha: fc9adbf88063d2681cda608df47d517470d03fed
-  specs:
-    brewcask (0.0.1)
-
 GITHUBTARBALL
   remote: boxen/puppet-autoconf
   specs:
@@ -95,7 +88,6 @@ GITHUBTARBALL
 DEPENDENCIES
   autoconf (= 1.0.0)
   boxen (= 3.0.1)
-  brewcask (>= 0)
   dnsmasq (= 1.0.0)
   gcc (= 2.0.1)
   git (= 1.2.5)
